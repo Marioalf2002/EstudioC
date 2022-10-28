@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inicio">
+      <UniqueIdentifier>{7526de5a-d63c-480a-aaa4-fd40ad64d2e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Recursos">
+      <UniqueIdentifier>{ac3c98b8-baf6-4730-aab7-94cc30f80110}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="recursos\funciones.cpp">
+      <Filter>Recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="inicio\main.cpp">
+      <Filter>Inicio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="recursos\funciones.h">
+      <Filter>Recursos</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
