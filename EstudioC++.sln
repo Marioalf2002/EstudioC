@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32802.440
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TipoVariables", "EstudioC++\EstudioC++.vcxproj", "{F4F7B0C9-8481-4A3F-9949-3BD3CB396B0B}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arreglos_Matrices", "Arreglos_Matrices\Arreglos_Matrices.vcxproj", "{8841ACCB-DC26-4B83-85F5-938FBD0680EB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lenguaje", "Lenguaje\Lenguaje.vcxproj", "{CA750228-A3BC-4CBC-B5C3-C09FEBA23674}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tiempo", "Tiempo\Tiempo.vcxproj", "{40597BA3-16CF-4D4A-B4AA-95CF48FCEFD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,14 @@ Global
 		{CA750228-A3BC-4CBC-B5C3-C09FEBA23674}.Release|x64.Build.0 = Release|x64
 		{CA750228-A3BC-4CBC-B5C3-C09FEBA23674}.Release|x86.ActiveCfg = Release|Win32
 		{CA750228-A3BC-4CBC-B5C3-C09FEBA23674}.Release|x86.Build.0 = Release|Win32
+		{40597BA3-16CF-4D4A-B4AA-95CF48FCEFD2}.Debug|x64.ActiveCfg = Debug|x64
+		{40597BA3-16CF-4D4A-B4AA-95CF48FCEFD2}.Debug|x64.Build.0 = Debug|x64
+		{40597BA3-16CF-4D4A-B4AA-95CF48FCEFD2}.Debug|x86.ActiveCfg = Debug|Win32
+		{40597BA3-16CF-4D4A-B4AA-95CF48FCEFD2}.Debug|x86.Build.0 = Debug|Win32
+		{40597BA3-16CF-4D4A-B4AA-95CF48FCEFD2}.Release|x64.ActiveCfg = Release|x64
+		{40597BA3-16CF-4D4A-B4AA-95CF48FCEFD2}.Release|x64.Build.0 = Release|x64
+		{40597BA3-16CF-4D4A-B4AA-95CF48FCEFD2}.Release|x86.ActiveCfg = Release|Win32
+		{40597BA3-16CF-4D4A-B4AA-95CF48FCEFD2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
