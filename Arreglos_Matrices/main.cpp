@@ -2,12 +2,12 @@
 //         TUTORIAL C++ Arreglos/Marices         //
 //***********************************************//
 
-
 #include <iostream>
 using namespace std;
 
 int main()
 {
+	
 	int M[3] = { 1, 2, 3 };														//arreglo de 3 espacios.
 	int N[3][3] = { {1,2,3}, {4,5,6}, {7,8,9} };							    //cantidad filas y columnas una matriz de 3*3 Filas = {}{}{} Columnas = 1,2,3  
 	int k[4][2] = { {1,2}, {3,4}, {5,6}, {7,8} };
@@ -40,9 +40,9 @@ int main()
 	}
 	cout << "\nMATRIZ\n";
 
-	for (i = 0; i < fila; i++) {
-		for (j = 0; j < columna; j++) {
-			cout << matriz[i][j] << " ";
+	for (int i = 0; i < fila; i++) {
+		for (int j = 0; j < columna; j++) {
+			cout << L[i][j] << " ";
 		}
 		cout << endl;
 	}
