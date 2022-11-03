@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tiempo", "Tiempo\Tiempo.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Multithreading", "Multithreading\Multithreading.vcxproj", "{080B0701-B3D7-4456-80D5-5C3056D157F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TallerFunciones", "TallerFunciones\TallerFunciones.vcxproj", "{30F6C3D5-9166-4811-9998-BFCCC75EC548}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{080B0701-B3D7-4456-80D5-5C3056D157F1}.Release|x64.Build.0 = Release|x64
 		{080B0701-B3D7-4456-80D5-5C3056D157F1}.Release|x86.ActiveCfg = Release|Win32
 		{080B0701-B3D7-4456-80D5-5C3056D157F1}.Release|x86.Build.0 = Release|Win32
+		{30F6C3D5-9166-4811-9998-BFCCC75EC548}.Debug|x64.ActiveCfg = Debug|x64
+		{30F6C3D5-9166-4811-9998-BFCCC75EC548}.Debug|x64.Build.0 = Debug|x64
+		{30F6C3D5-9166-4811-9998-BFCCC75EC548}.Debug|x86.ActiveCfg = Debug|Win32
+		{30F6C3D5-9166-4811-9998-BFCCC75EC548}.Debug|x86.Build.0 = Debug|Win32
+		{30F6C3D5-9166-4811-9998-BFCCC75EC548}.Release|x64.ActiveCfg = Release|x64
+		{30F6C3D5-9166-4811-9998-BFCCC75EC548}.Release|x64.Build.0 = Release|x64
+		{30F6C3D5-9166-4811-9998-BFCCC75EC548}.Release|x86.ActiveCfg = Release|Win32
+		{30F6C3D5-9166-4811-9998-BFCCC75EC548}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
