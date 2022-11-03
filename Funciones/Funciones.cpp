@@ -42,6 +42,7 @@ int aleatoriorango(int minimo, int rango)																//Funcion valor aleator
 	return valor;
 }
 
+//=========FUNCOINES CON VECTORES=========
 void leer(int V[1], int n)
 {
 	for (int x = 0; x < n; x++)
@@ -66,6 +67,7 @@ void sumar(int V[1], int n)
 	cout << "La suma total es: " << suma << endl;
 }
 
+//=========FUNCOINES CON MTRIZ=========
 void recibir(int V[100][100], int fila, int columna)
 {
 	for (int x = 0; x < fila; x++)
@@ -95,6 +97,8 @@ void divisible(int V[100][100], int fila, int columna)
 		}
 	}
 }
+
+//=========FUNCOINES REGISTRO PACIENTES=========
 
 //VARIABLES CONSTANTES
 int edad, cantidad_m, cantidad_h, n;
@@ -135,6 +139,7 @@ void pacientes()
 		}
 	}
 }
+
 void promedio()
 {
 	pm = sm / cantidad_m;
@@ -143,6 +148,7 @@ void promedio()
 	cout << "Promedio Edad Mujeres: " << pm << endl;
 }
 
+//=========FUNCOINES CON MENU=========
 void adios()
 {
 	cout << "ADIOS! Has salido del programa!";
